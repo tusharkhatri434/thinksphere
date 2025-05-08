@@ -21,7 +21,7 @@ const Contact = () => {
         <div className="relative bg-gradient-blue text-white py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>
+              <h1 className="text-2xl md:text-4xl font-bold mb-6">Contact Us</h1>
               <p className="text-xl text-white/90">
                 Get in touch with the ThinkOsphere team for any questions or inquiries
               </p>

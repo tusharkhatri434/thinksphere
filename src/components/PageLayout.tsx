@@ -24,10 +24,10 @@ const PageLayout: React.FC<PageLayoutProps> = ({ children, title, subtitle, hide
       <Navbar />
       <div className="w-full">
         {!hideHero && (
-          <div className="relative bg-gradient-blue text-white py-12 md:py-16 lg:py-24 w-full">
+          <div className="relative bg-gradient-blue text-white pt-24 pb-10 w-full">
             <div className="container mx-auto px-4">
               <div className="max-w-3xl mx-auto text-center">
-                <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 md:mb-6">{title}</h1>
+                <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-6">{title}</h1>
                 {subtitle && (
                   <p className="text-lg md:text-xl text-white/90">
                     {subtitle}

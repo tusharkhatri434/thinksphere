@@ -100,11 +100,11 @@ const Resources = () => {
 
       <div className="pt-20">
         {/* Hero Section */}
-        <div className="relative bg-gradient-blue text-white py-20 md:py-28">
+        <div className="relative bg-gradient-blue text-white py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
               
-              <p className="text-white/90 text-4xl font-semibold">
+              <p className="text-white/90 text-3xl md:text-5xl font-bold">
                 Prepare for Success
               </p>
               <p className="mt-4 text-lg text-white/80">
